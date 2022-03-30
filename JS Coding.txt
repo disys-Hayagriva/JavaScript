@@ -1,0 +1,41 @@
+HTML CODE:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JavaScript program to find the largest of three given integers.</title>
+</head>
+<body>
+<p> The code written below is to find the largest of the given three numbers. </p>
+
+//JS CODE EXECUTION
+
+<script>
+
+function max_of_three(x, y, z) 
+ {
+max_val = 0;
+if (x>y)
+{
+ max_val = x;
+ } else
+ {
+  max_val = y;
+  }
+if (z>max_val) 
+ {
+  max_val = z;
+  }
+ return max_val;
+}
+
+console.log(max_of_three(100,1000,125));
+</script>
+</body>
+</html>
+
+OUTPUT: 
+1000
+
