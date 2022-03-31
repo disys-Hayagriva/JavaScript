@@ -1,0 +1,56 @@
+2.JavaScript program to find which 1st January is being a Sunday between 2014 and 2050.
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset = utf-8 />
+
+<title> A Program to find 1st January is being a Sunday between 2014 and 2050. </title>
+
+</head>
+
+<body>
+
+<script>
+
+console.log('--------------------');
+for (var year = 2014; year <= 2050; year++)
+    {
+    var d = new Date(year, 0, 1);
+    if ( d.getDay() === 0 )
+        console.log("1st January is being a Sunday  "+year);
+    }
+console.log('--------------------');
+
+</script>
+</body>
+</html>
+
+3.Compute the sum of two given integers , if two values are same then return triple their sum.
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JavaScript program to compute the sum of the two given integers. If the two values are same, then return triple their sum</title>
+
+</head>
+
+<body>
+<script>
+
+function sumTriple (x, y) {
+  if (x == y) {
+    return 3 * (x + y);
+    } 
+   else
+   {
+    return (x + y);
+   }
+ }
+</script>
+
+</body>
+
+</html>
